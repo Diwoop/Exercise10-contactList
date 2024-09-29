@@ -1,0 +1,66 @@
+body{
+    display: flex;
+      align-items: center;
+      justify-content: center;
+}
+.containerPrimary{
+    margin-top: 50px;
+    background-color: rgba(237, 221, 157, 0.549);
+    border-radius: 20px;
+    height: auto;
+    width: 700px;
+    border: 1px orange solid;
+    
+}
+.containerPrimary p{
+    margin: 30px;
+    color:black;
+}
+.contactoImagen {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: 30% 70%;
+}
+
+.form-group input{
+    margin-top: 20px;
+}
+.list-group{
+    margin:20px;
+    background-color: rgba(237, 221, 157, 0.549);
+}
+.item{
+    border-bottom: 1px solid black;
+}
+.contact{
+    border-bottom: rgb(34, 34, 33) 1px transparent;
+}
+.btn-custom{
+    background-color: bisque;
+    border-radius: 10px;
+    border: 1px rgb(255, 179, 86) solid;
+    padding: 10px;
+    margin:20px;
+    color: black;
+}
+.btn-custom:hover{
+    background-color: rgb(252, 236, 216);
+    border-radius: 10px;
+    border: 1px rgb(255, 179, 86) solid;
+}
+.formulario{
+    background-color: rgb(245, 233, 173);
+    border-radius: 20px;
+    border: 1px rgb(255, 211, 130) solid;
+    padding: 30px;
+
+}
+.formulario a{
+    text-decoration: none;
+    color: brown;
+}
+.formulario a :hover{
+    text-decoration: none;
+    color: rgb(246, 47, 47);
+}
