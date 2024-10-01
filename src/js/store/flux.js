@@ -90,7 +90,7 @@ const getState = ({ getStore, getActions, setStore }) => {
             },
             actualizarContacto: async (contact, navigate) => {
                 try {
-                    const uri = `https://playground.4geeks.com/contact/agendas/DianaEstallo/contacts/${contact.id}`;
+                    const uri = `https://playground.4geeks.com/contact/agendas/Diwoop/contacts/${contact.id}`;
                     const options = {
                         method: "PUT",
                         headers: {
